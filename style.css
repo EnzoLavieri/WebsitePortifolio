@@ -5,30 +5,37 @@
   font-family: "Inter", sans-serif;
 }
 
+body {
+  background: #333;
+  color: #fff;
+}
+
 header {
   background: #262626;
-  color: #fff;
   padding: 1rem;
   position: fixed;
   width: 100%;
 }
+
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 nav ul {
   list-style: none;
   display: flex;
+  gap: 1.5rem;
 }
-nav ul li {
-  margin-left: 1.5rem;
-}
+
 nav a {
-  color: #fff;
+  color: inherit;
   text-decoration: none;
   font-weight: bold;
+  transition: color 0.3s;
 }
+
 nav a:hover {
   color: #f0db4f;
 }
@@ -39,18 +46,17 @@ nav a:hover {
   padding: 9.6rem 15rem;
 }
 
-#hero h2 {
-  font-size: 6rem;
-  font-weight: 300;
-  margin: -30px 0 0 0;
-  color: #b7b7b7;
-}
-
 #hero h1 {
   font-size: 8rem;
   font-weight: 300;
   margin: 0;
-  color: white;
+}
+
+#hero h2 {
+  font-size: 6rem;
+  font-weight: 300;
+  margin-top: -30px;
+  color: #b7b7b7;
 }
 
 .highlight {
@@ -63,7 +69,73 @@ nav a:hover {
   color: #b7b7b7;
   width: 50%;
   font-size: 1.4rem;
-  padding: 20px 0px;
+  padding: 20px 0;
+}
+
+section {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+section h2 {
+  font-weight: 300;
+  font-size: 4rem;
+}
+
+#about .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+}
+
+#about .profile {
+  text-align: center;
+}
+
+.profile img {
+  border-radius: 100%;
+  height: 18rem;
+  margin: 0 0 3rem 0;
+}
+
+#about p {
+  max-width: 40rem;
+  font-size: 1.6rem;
+  text-align: left;
+  font-weight: 300;
+}
+
+.projects-container,
+.skills {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  background: #f4f4f4;
+  color: #333;
+  margin: 1rem;
+  padding: 1.5rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  text-align: left;
+}
+
+.project-card a {
+  display: block;
+  margin-top: 1rem;
+  color: inherit;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.project-card a:hover {
+  color: #f0db4f;
 }
 
 .btn {
@@ -71,63 +143,19 @@ nav a:hover {
   margin-top: 1rem;
   padding: 0.5rem 1.5rem;
   background: #333;
-  color: #fff;
+  color: inherit;
   text-decoration: none;
   border-radius: 5px;
+  transition: background 0.3s, color 0.3s;
 }
+
 .btn:hover {
   background: #f0db4f;
   color: #333;
 }
 
-section {
-  padding: 3rem 2rem;
-  text-align: center;
-}
-section h2 {
-  margin-bottom: 1.5rem;
-}
-
-.skills-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-.skill {
-  background: #f0db4f;
-  margin: 0.5rem;
-  padding: 1rem 1.5rem;
-  border-radius: 5px;
-  font-weight: bold;
-}
-
-.projects-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-.project-card {
-  background: #f4f4f4;
-  margin: 1rem;
-  padding: 1.5rem;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  width: 300px;
-}
-.project-card a {
-  display: block;
-  margin-top: 1rem;
-  color: #333;
-  text-decoration: none;
-  font-weight: bold;
-}
-.project-card a:hover {
-  color: #f0db4f;
-}
-
 footer {
   background: #333;
-  color: #fff;
   text-align: center;
   padding: 1rem 0;
 }
