@@ -1,3 +1,4 @@
+/* General Styles */
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +11,7 @@ body {
   color: #fff;
 }
 
+/* Header */
 header {
   background: #262626;
   padding: 1rem;
@@ -40,6 +42,7 @@ nav a:hover {
   color: #f0db4f;
 }
 
+/* Hero Section */
 #hero {
   text-align: left;
   background: #262626;
@@ -72,6 +75,7 @@ nav a:hover {
   padding: 20px 0;
 }
 
+/* Section General */
 section {
   padding: 3rem 2rem;
   text-align: center;
@@ -82,6 +86,7 @@ section h2 {
   font-size: 4rem;
 }
 
+/* About Section */
 #about .container {
   display: flex;
   align-items: center;
@@ -106,6 +111,7 @@ section h2 {
   font-weight: 300;
 }
 
+/* Projects and Skills */
 .projects-container,
 .skills {
   display: flex;
@@ -138,6 +144,7 @@ section h2 {
   color: #f0db4f;
 }
 
+/* Buttons */
 .btn {
   display: inline-block;
   margin-top: 1rem;
@@ -154,6 +161,7 @@ section h2 {
   color: #333;
 }
 
+/* Footer */
 footer {
   background: #333;
   text-align: center;
