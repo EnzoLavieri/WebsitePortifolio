@@ -85,10 +85,26 @@
     <section id="contact">
       <h2>Contato</h2>
       <p>
-        Entre em contato comigo através do email:
-        <strong>devenzolavieri@gmail.com</strong>
+        Se tiver alguma pergunta ou duvida, preencha o formulário a baixo,
+        responderei o mais breve possível.
       </p>
-      <a href="mailto:devenzolavieri@gmail.com" class="btn">Enviar Email</a>
+      <form
+        action="https://formsubmit.co/devenzolavieri@gmail.com"
+        method="POST"
+      >
+        <input type="text" name="name" placeholder="Nome" required />
+        <div>
+          <input type="email" name="email" placeholder="Email" required />
+          <select id="subject" name="subject" placeholder="Assunto">
+            <option value="question">Duvida</option>
+            <option value="opinion" selected>Opinião</option>
+            <option value="job">Trabalho</option>
+          </select>
+        </div>
+
+        <textarea name="message" placeholder="Mensagem" required></textarea>
+        <button type="submit">Send</button>
+      </form>
     </section>
 
     <footer>
