@@ -15,16 +15,30 @@ body {
 /* Header */
 header {
   background: #262626;
-  padding: 1rem;
   position: fixed;
   width: 100%;
+}
+
+li {
+  font-size: 1.2rem;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: normal;
+}
+
+.navbar ul a:hover {
+  transition-duration: 0.1;
+  color: #8019a7;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 5rem;
+  margin: 0 6rem;
 }
 
 nav p {
@@ -44,8 +58,8 @@ nav a {
   transition: color 0.3s;
 }
 
-nav a:hover {
-  color: #f0db4f;
+.navbar ul li a span {
+  color: #8019a7; /* Roxo */
 }
 
 /* home Section */
