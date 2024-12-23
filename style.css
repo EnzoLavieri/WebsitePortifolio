@@ -26,6 +26,11 @@ nav {
   align-items: center;
 }
 
+nav p {
+  font-size: 3rem;
+  margin-left: 1.2rem;
+}
+
 nav ul {
   list-style: none;
   display: flex;
@@ -43,19 +48,19 @@ nav a:hover {
   color: #f0db4f;
 }
 
-/* Hero Section */
-#hero {
+/* home Section */
+#home {
   text-align: left;
   background: #262626;
   padding: 9.6rem 15rem;
 }
 
-#hero h1 {
+#home h1 {
   font-size: 8rem;
   margin: 0;
 }
 
-#hero h2 {
+#home h2 {
   font-size: 6rem;
   margin-top: -30px;
   color: #b7b7b7;
@@ -260,15 +265,15 @@ hr {
 
 /* Responsividade para dispositivos móveis */
 @media (max-width: 1024px) {
-  #hero {
+  #home {
     padding: 6rem 2rem;
   }
 
-  #hero h1 {
+  #home h1 {
     font-size: 6rem;
   }
 
-  #hero h2 {
+  #home h2 {
     font-size: 4rem;
   }
 
@@ -365,15 +370,15 @@ hr {
     align-items: center;
   }
 
-  #hero {
+  #home {
     padding: 4rem 1rem;
   }
 
-  #hero h1 {
+  #home h1 {
     font-size: 4rem;
   }
 
-  #hero h2 {
+  #home h2 {
     font-size: 3rem;
   }
 
