@@ -24,11 +24,11 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 5rem;
 }
 
 nav p {
   font-size: 3rem;
-  margin-left: 1.2rem;
 }
 
 nav ul {
